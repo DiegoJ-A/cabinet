@@ -13,6 +13,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise'
 gem 'simple_form'
 gem 'haml'
+gem 'better_errors', '~> 2.5', '>= 2.5.1'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -30,5 +31,6 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
+
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
