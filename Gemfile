@@ -14,7 +14,6 @@ gem 'devise'
 gem 'simple_form'
 gem 'haml'
 gem 'better_errors', '~> 2.5', '>= 2.5.1'
-gem 'normalize', '~> 0.0.3'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
