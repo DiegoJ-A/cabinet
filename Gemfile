@@ -13,7 +13,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise'
 gem 'simple_form'
 gem 'haml'
-gem 'better_errors', '~> 2.5', '>= 2.5.1'
+gem 'better_errors', '~> 2.8'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
